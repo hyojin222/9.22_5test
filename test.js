@@ -17,5 +17,5 @@ console.log(`\n후보에는 ${후보이름}가 있습니다.\n`);
 맛집순위.sort((a,b)=>a.rank-b.rank);
 
 맛집순위.forEach((e) => {
-    console.log(`${e.rank}번째로 맛있는 집은 ${e.type}인 ${e.name}입니다.`);
+    console.log(`${e.rank}번째로 맛있는 집은 ${e.type}인 ${e.name}입니다. 짝짝짝~`);
 });
